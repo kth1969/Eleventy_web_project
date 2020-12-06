@@ -164,12 +164,9 @@ font-size: 1.5rem;
         background-color: #fff;
     }
     .theme-dot:hover{
-        border-width: 5px;
+        background-color: rgb(228, 203, 203);
        }
     
-       #first-mode{
-           background-color: #fff;
-       }
   
     
     #settings-note{
