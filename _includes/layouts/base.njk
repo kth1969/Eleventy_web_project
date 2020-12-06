@@ -44,6 +44,15 @@
       x.style.display = "none";
     }
   }
+  function setImage() {
+  var e = document.getElementById('mySelect');
+  document.getElementById('myImage').src = e.options[e.selectedIndex].value;
+}
+
+function resizeImage() {
+  var image = document.getElementById('scale-wrapper'),
+      ranger = document.getElementById('mySlider');
+  image.style.width = 100*(mySlider.value / 1)+'px';}
  </script>
   </head>
  
@@ -73,8 +82,8 @@
                
   </div>
    <figure>
-  <label for="grayscale">change crowded to minimal</label>
-  <input id="grayscale" type="range" min="0" max="100" value="30"/>
+   <label for="grayscale">change crowded to minimal</label>
+ <input id="mySlider" type="range" min="1" max="5" value="1" step="1" onchange="resizeImage();">
 </figure>
   </div>
 
