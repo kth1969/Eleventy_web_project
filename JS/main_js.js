@@ -65,16 +65,14 @@ console.log("hello bauhaus!");
 // //   }  
 //   localStorage.setItem("theme", mode)
 // }
-// function myFunction() {
-//     var x = document.getElementById("myDIV");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-data = '[{"name" : "Niroj", "age" : "22"},{"name" : "Dey", "age" : "20"}]';
-  var mydata = JSON.parse(data);
-alert(mydata[0].name);
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
 
 

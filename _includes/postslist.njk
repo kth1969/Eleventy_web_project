@@ -12,9 +12,17 @@
   </li>
 {% endfor %}
 </ol> #}
-{% for screenshot in collection %}
+{# {% for screenshot in collection %}
   {# <img src="/img/{{screenshot.name}}">  #}
 
-{{screenshot.main_color}}
+{# {{screenshot.main_color}} #}
 
-{% endfor %}
+{# {% endfor %} #} 
+
+
+{% for screenshot in collection %}
+   <img src="/img/{{screenshot.name}}">   
+
+{# {{screenshot.main_color}} #}
+
+ {% endfor %} 
