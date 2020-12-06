@@ -29,12 +29,17 @@
  
 {% for screenshot in collection_1 %}
    <img src="/img/{{screenshot.name}}">   
-
+<p>{{screenshot.year}}</p>
 
 
  {% endfor %} 
     
-   
+ {% if screenshot.busy in collection_1 === "true" %}
+  
+<p>{{screenshot.busy}}</p>
+
+ {% endif %} 
+
 </section>
 </div>
 <div id="second">
@@ -75,7 +80,7 @@
  <h2 class="text-rotate">2015</h2>
 
     
-{% for screenshot in collection_3 %}
+{% for screenshot in collection_4 %}
    <img src="/img/{{screenshot.name}}">   
 
 
