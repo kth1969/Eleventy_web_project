@@ -12,8 +12,32 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
      {# <script src="{{'/JS/main_js.js}}"></script> #}
 
- <script>function myFunction() {
+ <script>function first() {
     var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+    function second() {
+    var x = document.getElementById("myDIV1");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function third() {
+    var x = document.getElementById("myDIV2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+    function forth() {
+    var x = document.getElementById("myDIV3");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -42,10 +66,10 @@
             </p>
                  <div id="theme-options-wrapper">
 
-                    <button onclick="myFunction()" class="theme-dot">1995</button>
-                     <button onclick="myFunction()"class="theme-dot">2001</button>
-                     <button onclick="myFunction()" class="theme-dot">2010</button>
-                     <button onclick="myFunction()" class="theme-dot">2015</button>
+                    <button onclick="first()" class="theme-dot">1995</button>
+                     <button onclick="second()"class="theme-dot">2001</button>
+                     <button onclick="third()" class="theme-dot">2010</button>
+                     <button onclick="forth()" class="theme-dot">2015</button>
                
   </div>
    <figure>
@@ -58,9 +82,7 @@
 
  </main>
       <!-- Stop deleting -->
-        <div id="myDIV">
-<section>
- <h2 class="text-rotate">1995</h2>
+
 
       {{ content | safe }}
      

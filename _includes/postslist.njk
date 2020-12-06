@@ -20,9 +20,69 @@
 {# {% endfor %} #} 
 
 
-{% for screenshot in collection %}
+
+
+<div id="myDIV">
+<section>
+ <h2 class="text-rotate">1995</h2>
+
+    
+{% for screenshot in collection_1 %}
    <img src="/img/{{screenshot.name}}">   
 
-{# {{screenshot.main_color}} #}
+
 
  {% endfor %} 
+     
+   
+</section>
+
+<div id="myDIV1">
+<section>
+ <h2 class="text-rotate">2001</h2>
+
+    
+{% for screenshot in collection_2 %}
+   <img src="/img/{{screenshot.name}}">   
+
+
+
+ {% endfor %} 
+     
+   
+</section>
+
+</div>
+<div id="myDIV2">
+<section>
+ <h2 class="text-rotate">2010</h2>
+
+    
+{% for screenshot in collection_3 %}
+   <img src="/img/{{screenshot.name}}">   
+
+
+
+ {% endfor %} 
+     
+   
+</section>
+
+</div>
+</div>
+<div id="myDIV3">
+<section>
+ <h2 class="text-rotate">2015</h2>
+
+    
+{% for screenshot in collection_3 %}
+   <img src="/img/{{screenshot.name}}">   
+
+
+
+ {% endfor %} 
+     
+   
+</section>
+
+</div>
