@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
      <link rel="stylesheet" href="{{ '/css/Stylesheet.css' | url }}">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ title }}">
    
 
  <script>function first() {
@@ -44,15 +44,7 @@
       x.style.display = "none";
     }
   }
-  function setImage() {
-  var e = document.getElementById('mySelect');
-  document.getElementById('myImage').src = e.options[e.selectedIndex].value;
-}
 
-function resizeImage() {
-  var image = document.getElementById('scale-wrapper'),
-      ranger = document.getElementById('mySlider');
-  image.style.width = 100*(mySlider.value / 1)+'px';}
  </script>
   </head>
  
