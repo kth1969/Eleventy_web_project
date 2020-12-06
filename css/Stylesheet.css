@@ -175,3 +175,14 @@ font-size: 1.5rem;
         font-size: 1rem;
         text-align: center;
     }
+
+    /* About page */
+
+    .wrapper-about{
+        text-align: center;
+
+    }
+    .p-about{
+        text-align: center;
+
+    }
