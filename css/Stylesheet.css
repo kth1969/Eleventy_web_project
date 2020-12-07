@@ -60,7 +60,7 @@ background: linear-gradient(40deg, rgba(19,6,246,0.8897934173669468) 0%, rgba(9,
     letter-spacing: 8px;
     text-shadow:var(--shadow);
    
-  background: -webkit-linear-gradient(rgb(5, 1, 22), rgb(10, 10, 233));
+  background: -webkit-linear-gradient(rgb(5, 1, 22), rgb(3, 3, 170));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    
