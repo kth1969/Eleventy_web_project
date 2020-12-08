@@ -103,14 +103,14 @@ section img{
 section img:nth-of-type(2n){
     
     margin-top: 10%;
-    box-shadow: 0.4rem 0.4rem rgba(246, 6, 214, 0.616);
+    box-shadow: 0.4rem 0.4rem rgba(246, 6, 214, 0.925);
    
    
 }
 
 
 section img:nth-of-type(3n){
-    box-shadow: 0.4rem 0.4rem rgba(6, 246, 226, 0.616);
+    box-shadow: 0.4rem 0.4rem rgba(6, 246, 226, 0.918);
    
 
 }
