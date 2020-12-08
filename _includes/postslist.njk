@@ -14,7 +14,10 @@
 
 
  {% endfor %} 
-    
+{% assign screenshot_busy = false %}
+{% if my_variable != true %}
+  {{screenshot.busy}}
+{% endif %}    
 
 
 </section>

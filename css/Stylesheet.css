@@ -44,7 +44,7 @@ h2 {
     text-align:center;
     
     padding:0.5rem ;
-    color: white;
+    color: var(--light);
     background: rgb(19,6,246);
 background: linear-gradient(40deg, rgba(19,6,246,0.8897934173669468) 0%, rgba(9,9,121,1) 100%);
    
@@ -54,15 +54,16 @@ background: linear-gradient(40deg, rgba(19,6,246,0.8897934173669468) 0%, rgba(9,
     position: relative;
     top:5vw;
     text-align:center;
-    color:var(--grey);
+    
     font-size: 8rem;
     font-weight: 600;
     letter-spacing: 8px;
     text-shadow:var(--shadow);
-   
-  background: -webkit-linear-gradient(rgb(5, 1, 22), rgb(3, 3, 170));
+    -webkit-text-fill-color: transparent;
+    background-image:linear-gradient(40deg, rgb(19,6,246), rgb(9,9,121));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
    
      
 }
