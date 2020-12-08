@@ -8,12 +8,12 @@
  <h2 class="text-rotate">1995</h2>
 
  
-{% for screenshot in collection_2 %}
-   <img src="/img/{{screenshot.name}}">   
 
+ {% if screenshot.busy contains "true" %}
+   <img src="/img/{{screenshot.busy}}">   
+  
 
- {% endfor %}
-
+ {% endif %}
 
 </section>
 </div>
@@ -51,7 +51,7 @@
 </div>
 
 <div id="forth">
-<section >
+<section>
  <h2 class="text-rotate">2015</h2>
 
     
