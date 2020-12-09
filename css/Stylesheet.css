@@ -62,7 +62,7 @@ h2 {
 
 .ptext{
     position: relative;
-    top:5vw;
+    top:10vw;
     text-align:center;
     
     font-size: 8rem;
@@ -176,13 +176,20 @@ font-size: 1.5rem;
 }
 
 /* Dots for change year */
+div.sticky {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 1%;
+    left: 35%;
+  
+    z-index: 1000;
+    overflow: auto;
+  }
+ 
 #theme-options-wrapper{
-
-    position: relative;
-    margin-top: 15%;
-    margin-bottom: 5vh;
-    display:flex;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+ 
     transition: all 1s;
     
     }
@@ -207,14 +214,18 @@ font-size: 1.5rem;
         background-color: rgb(241, 220, 220);
        }
   
-    
-    #settings-note{
+       #settings-note{
         font-size: 1rem;
         text-align: center;
     }
+    #first{
+        transition: all 2s ease-in-out;
+    }
+
     figure{
         display: flex;
         flex-direction: column;
+        margin-top: 25rem;
         margin-bottom: 5rem; 
         text-align: center;
        align-items: center;

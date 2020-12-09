@@ -176,6 +176,8 @@ font-size: 1.5rem;
     }
     
     .theme-dot{
+        position: -webkit-sticky;
+        position: sticky;
         height: 30px;
         width: 100px;
         border-radius: 5%;

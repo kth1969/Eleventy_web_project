@@ -59,25 +59,31 @@
       {%- endfor %}
       </ul>  
    </header>  #} 
-   <body>
-    <div class="wrapper">
+
+   <div class="sticky">
+        
+        <div id="theme-options-wrapper">
       
+          <button onclick="first()"class="theme-dot">1995-2000</button>
+           <button onclick="second()"class="theme-dot">2001-2009</button>
+           <button onclick="third()" class="theme-dot">2010-2014</button>
+           <button onclick="forth()" class="theme-dot">2015-2020</button>
+          </div>
+     
+        
+      </div>
+    
             <p class="ptext">
             1995-2020
             </p>
-                 <div id="theme-options-wrapper">
-
-                    <button onclick="first()" class="theme-dot">1995-2000</button>
-                     <button onclick="second()"class="theme-dot">2001-2009</button>
-                     <button onclick="third()" class="theme-dot">2010-2014</button>
-                     <button onclick="forth()" class="theme-dot">2015-2020</button>
-               
-  </div>
+       
+          
    <figure>
-   <label for="grayscale">does not work change grid</label>
+   <label for="grayscale">scale the grid</label>
  <input id="mySlider" type="range" min="1" max="5" value="1" step="1" onchange="resizeImage();">
 </figure>
-  </div>
+
+ </div>
 
      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}> 
 
