@@ -10,9 +10,20 @@
      <link rel="stylesheet" href="{{ '/css/Stylesheet.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ title }}">
+      <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+    </script> 
    
 
- <script>function first() {
+ <script>
+    $(document).on("click", ".toggleVisibilitybold", function() {
+    $('.bold').toggleClass('hide');
+});
+      $(document).on("click", ".toggleVisibilitybusy", function() {
+    $('.busy').toggleClass('hide');
+});
+ 
+ function first() {
     var x = document.getElementById("first");
     if (x.style.display === "none") {
       x.style.display = "block";
@@ -68,6 +79,9 @@
            <button onclick="second()"class="theme-dot"><a href="#second">2001-2009</a></button>
            <button onclick="third()" class="theme-dot"><a href="#third">2010-2014</a></button>
            <button onclick="forth()" class="theme-dot"><a href="#forth">2015-2020</a></button>
+          <button class="toggleVisibilitybusy theme-dot" id="theme-dot"> hide busy</button>
+           <button class="toggleVisibilitybold theme-dot" id="theme-dot">hide bold colors</button>
+            
           </div>
      
         
