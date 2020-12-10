@@ -65,9 +65,9 @@ h2 {
 
 .ptext{
     position: relative;
-    top:10vw;
+    top:15vw;
     text-align:center;
-    
+    margin-bottom: 30vw;
     font-size: 8rem;
     font-weight: 600;
     letter-spacing: 8px;
@@ -183,7 +183,7 @@ div.sticky {
     position: -webkit-sticky;
     position: fixed;
     top: 1%;
-    left: 35%;
+    left: 21%;
   
     z-index: 1000;
     overflow: auto;
@@ -266,14 +266,14 @@ div.sticky {
         transition: all 2s ease-in-out;
     }
 
-    figure{
+    /* figure{
         display: flex;
         flex-direction: column;
         margin-top: 25rem;
         margin-bottom: 5rem; 
         text-align: center;
        align-items: center;
-    }
+    } */
 
     label{
         text-align: center;
@@ -304,14 +304,14 @@ div.sticky {
         margin: 1rem;
     }
     img:hover {
-        width:   150%;
+        width:   170%;
       
       }
       section img:hover {
-        width:   150%;
+        width:   170%;
       
       }
       .section img:hover {
-        width:   150%;
+        width:   170%;
       
       }
