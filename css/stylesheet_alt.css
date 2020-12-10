@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap');
 
 :root{
@@ -37,12 +36,7 @@ h2 {
     letter-spacing: 3px;
     
 }
-
-
-
-.hide {
-    display:none;
-}
+.hide {display:none;}
 .text-rotate{
     /* margin-left: 15px; */
     transform-origin: left;
@@ -93,32 +87,22 @@ h2 {
 /* Grid Layout Css Properties*/
 
 
-
-
-.wrapper-grid{
-    /* min-height: 100vh; */
-    margin-top: 5vh;
-    display:grid;
-    grid-template-columns:repeat(9,1fr) ;
-    grid-template-rows:repeat(8,1fr);
-    grid-gap:12px;
-    grid-auto-flow: row-dense;
-}
-.wrapper-grid-2{
-    /* min-height: 100vh; */
-    margin-top: 5vh;
-    display:grid;
-    grid-template-columns:repeat(9,1fr) ;
-    grid-template-rows:repeat(8,1fr);
-    grid-gap:12px;
-    grid-auto-flow: row-dense;
-}
-
-
-/* Layout for first ID and third ID */
-
-.wrapper-grid img{
+/* .wrapper{
    
+   
+    
+} */
+
+section{
+    /* min-height: 100vh; */
+    margin-top: 5vh;
+    display:grid;
+    grid-template-columns:repeat(9,1fr) ;
+    grid-template-rows:repeat(8,1fr);
+    grid-gap:12px;
+    grid-auto-flow: row-dense;
+}
+section img{
     width:115%;
     margin: 0 auto;
     transition: all 1s;
@@ -126,59 +110,9 @@ h2 {
     justify-content: center;
 
 }
-.wrapper-grid img:nth-of-type(2n){
-   
-    grid-column: span 2;
-    margin-top: 40%;
-    grid-row: span 2;
-    width:115%;
- 
-}
-.wrapper-grid img:nth-of-type(3n){
-   
-    grid-column: span 1;
-    grid-row: span 1;
-    margin-top: 25%;
-    width:130%;
- 
-}
-.wrapper-grid img:nth-of-type(5n){
-   
-    grid-column: span 1;
-    grid-row: span 2;
-    margin-top: 45%;
-    width:160%;
- 
-}
-.wrapper-grid img:nth-of-type(8n){
-    grid-column: span 1;
-    grid-row: span 3;
-    width:180%;
-    box-shadow: 0.4rem 0.4rem rgba(18, 6, 246, 0.616);
-}
 
-/* Layout for forth ID */
 
-section .image-span-wrapper span{
-    position: absolute;
-    width:11%;
-    height:2%;
-    margin-top:-0.5rem;
-       
-    }
-
-    section .image-span-wrapper img{
-
-        width:115%;
-        margin: 0 auto;
-        transition: all 1s;
-        box-shadow: var(--shadow);
-        justify-content: center;
-        z-index: 10;
-
-}
-
-section .image-span-wrapper:nth-of-type(2n){
+section img:nth-of-type(2n){
     grid-column: span 2;
     margin-top: 40%;
     grid-row: span 2;
@@ -188,7 +122,7 @@ section .image-span-wrapper:nth-of-type(2n){
 }
 
 
-section .image-span-wrapper:nth-of-type(3n){
+section img:nth-of-type(3n){
     grid-column: span 1;
     grid-row: span 1;
     margin-top: 25%;
@@ -196,33 +130,30 @@ section .image-span-wrapper:nth-of-type(3n){
     
 }
 
-section .image-span-wrapper:nth-of-type(8n){
+section img:nth-of-type(5n){
+
+    grid-column: span 1;
+    grid-row: span 2;
+    margin-top: 45%;
+    width:160%;
+    
+}
+section img:nth-of-type(8n){
     grid-column: span 1;
     grid-row: span 3;
     width:180%;
- 
+    box-shadow: 0.4rem 0.4rem rgba(18, 6, 246, 0.616);
 }
-
-
-/* Layout for second ID */
-.wrapper-grid-2 img{
-    width:100%;
-    margin: 0 auto;
-    transition: all 1s;
-    box-shadow: var(--shadow);
-    justify-content: center;
-
-}
-.wrapper-grid-2 img:nth-of-type(2n){
+.section-2 img:nth-of-type(2n){
     grid-column: span 1;
     grid-row: span 1;
     width:130%;
     margin-top: 50%;
-  
+  ;
    
 }
 
-.wrapper-grid-2 img:nth-of-type(5n){
+.section-2 img:nth-of-type(5n){
 
     grid-column: span 2;
     grid-row: span 2;
@@ -233,7 +164,7 @@ section .image-span-wrapper:nth-of-type(8n){
     animation-delay: 3s;
     
 }
-.wrapper-grid-2 img:nth-of-type(8n){
+.section-2 img:nth-of-type(8n){
     grid-column: span 1;
     grid-row: span 3;
     margin-top: 45%;
