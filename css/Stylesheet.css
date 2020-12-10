@@ -303,3 +303,15 @@ div.sticky {
 
         margin: 1rem;
     }
+    img:hover {
+        width:   150%;
+      
+      }
+      section img:hover {
+        width:   150%;
+      
+      }
+      .section img:hover {
+        width:   150%;
+      
+      }

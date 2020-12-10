@@ -68,15 +68,20 @@ eleventyNavigation:
 <div id="forth">
 <section>
  <h2 class="text-rotate">2015</h2>
+   <button class="toggleVisibilitycolors buttonstyle" id="theme-dot">hide main colors</button>
 
     
-{% for screenshot in collection_4 %}
-   <img src="/img/{{screenshot.name}}">   
+{% for screenshot in collection_6 %}
 
+{% set averageClass = "" %}
+  {% if screenshot.average_col == true %}
+  {% set averageClass = "average" %}
+ 
+{% endif %}
 
+   <img class="{{averageClass}}"src="/img/{{screenshot.name}}"> 
 
  {% endfor %} 
-     
    
 </section>
 

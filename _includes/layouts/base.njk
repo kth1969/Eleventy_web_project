@@ -22,6 +22,9 @@
       $(document).on("click", ".toggleVisibilitybusy", function() {
     $('.busy').toggleClass('hide');
 });
+      $(document).on("click", ".toggleVisibilitycolors", function() {
+    $('.average').toggleClass('hide');
+});
  
  function first() {
     var x = document.getElementById("first");
@@ -81,6 +84,7 @@
            <button onclick="forth()" class="theme-dot"><a href="#forth">2015-2020</a></button>
           <button class="toggleVisibilitybusy theme-dot" id="theme-dot"> hide busy</button>
            <button class="toggleVisibilitybold theme-dot" id="theme-dot">hide bold colors</button>
+           <button class="toggleVisibilitycolors theme-dot" id="theme-dot">hide main colors</button>
             
           </div>
      
