@@ -251,7 +251,7 @@ div.sticky {
     position: -webkit-sticky;
     position: fixed;
     top: 1%;
-    left: 12%;
+    left: 17vw;
   
     z-index: 1000;
     overflow: auto;
