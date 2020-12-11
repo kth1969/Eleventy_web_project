@@ -53,7 +53,7 @@ h2 {
     
     color: var(--light);
    background: linear-gradient(40deg, rgba(18, 6, 246, 0.822) 100%, rgba(9, 9, 121, 0.822) 0%);
-   
+   z-index: 100;
 }
 
 
@@ -67,6 +67,7 @@ h2 {
     letter-spacing: 8px;
     text-shadow:0 2px 5px rgba(105, 100, 100, 0.63);
     color: var(--grey);
+   
     /* -webkit-text-fill-color: transparent;
     background-image:linear-gradient( rgb(19,6,246), rgb(9, 187, 241));
   -webkit-background-clip: text;

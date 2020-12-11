@@ -14,7 +14,8 @@
     "centered": false,
     "swiss": false,
     "newspapperlayout": true,
-    "colorful": false
+    "colorful": false,
+    "rgb_value": "rgb(63,61,60)"
   },
   {
     "year": 2010,
@@ -31,7 +32,8 @@
     "centered": false,
     "swiss": false,
     "newspapperlayout": true,
-    "colorful": false
+    "colorful": false,
+    "rgb_value": "rgb(183,184,186)"
   },
   {
     "year": 2010,
@@ -48,7 +50,8 @@
     "centered": false,
     "swiss": false,
     "newspapperlayout": true,
-    "colorful": true
+    "colorful": true,
+    "rgb_value": "rgb(198,203,217)"
   },
   {
     "year": 2010,
@@ -65,7 +68,8 @@
     "centered": true,
     "swiss": false,
     "newspapperlayout": false,
-    "colorful": true
+    "colorful": true,
+    "rgb_value": "rgb(242,217,215)"
   },
   {
     "year": 2010,
@@ -82,7 +86,8 @@
     "centered": false,
     "swiss": false,
     "newspapperlayout": false,
-    "colorful": false
+    "colorful": false,
+    "rgb_value": "rgb(247,245,245)"
   },
   {
     "year": 2010,
@@ -99,7 +104,8 @@
     "centered": false,
     "swiss": false,
     "newspapperlayout": true,
-    "colorful": true
+    "colorful": true,
+    "rgb_value": "rgb(198,193,213)"
   },
   {
     "year": 2010,
@@ -116,7 +122,8 @@
     "centered": true,
     "swiss": false,
     "newspapperlayout": false,
-    "colorful": false
+    "colorful": false,
+    "rgb_value": "rgb(250,243,241)"
   },
   {
     "year": 2010,
@@ -133,7 +140,8 @@
     "centered": true,
     "swiss": false,
     "newspapperlayout": false,
-    "colorful": false
+    "colorful": false,
+    "rgb_value": "rgb(230,228,225)"
   },
   {
     "year": 2010,
@@ -150,7 +158,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(59,76,79)"
   },
   {
     "year": 2010,
@@ -167,7 +176,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(245,241,223)"
   },
   {
     "year": 2010,
@@ -184,7 +194,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(217,208,209)"
   },
   {
     "year": 2010,
@@ -201,7 +212,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(238,239,241)"
   },
   {
     "year": 2010,
@@ -218,7 +230,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(172,174,173)"
   },
   {
     "year": 2010,
@@ -235,7 +248,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(213,207,210)"
   },
   {
     "year": 2011,
@@ -252,7 +266,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(217,217,217)"
   },
   {
     "year": 2011,
@@ -269,7 +284,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(209,224,214)"
   },
   {
     "year": 2011,
@@ -286,7 +302,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(107,87,112)"
   },
   {
     "year": 2011,
@@ -303,7 +320,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(235,227,205)"
   },
   {
     "year": 2011,
@@ -320,7 +338,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(209,204,200)"
   },
   {
     "year": 2011,
@@ -337,7 +356,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(236,235,237)"
   },
   {
     "year": 2011,
@@ -354,7 +374,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(155,200,192)"
   },
   {
     "year": 2011,
@@ -371,7 +392,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(40,32,26)"
   },
   {
     "year": 2012,
@@ -388,7 +410,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(107,87,112)"
   },
   {
     "year": 2012,
@@ -405,7 +428,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(113,101,97)"
   },
   {
     "year": 2012,
@@ -422,7 +446,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(233,235,237)"
   },
   {
     "year": 2012,
@@ -439,7 +464,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(217,204,204)"
   },
   {
     "year": 2012,
@@ -456,7 +482,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(144,143,142)"
   },
   {
     "year": 2012,
@@ -473,7 +500,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(241,238,238)"
   },
   {
     "year": 2012,
@@ -490,7 +518,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(215,210,203)"
   },
   {
     "year": 2012,
@@ -507,7 +536,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(163,156,155)"
   },
   {
     "year": 2012,
@@ -524,7 +554,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(217,218,218)"
   },
   {
     "year": 2012,
@@ -541,7 +572,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(207,195,189)"
   },
   {
     "year": 2012,
@@ -558,7 +590,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(116,161,86)"
   },
   {
     "year": 2012,
@@ -575,7 +608,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(209,207,206)"
   },
   {
     "year": 2012,
@@ -592,7 +626,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(30,30,30)"
   },
   {
     "year": 2013,
@@ -609,7 +644,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(240,239,238)"
   },
   {
     "year": 2013,
@@ -626,7 +662,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(239,234,232)"
   },
   {
     "year": 2013,
@@ -643,7 +680,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(236,219,112)"
   },
   {
     "year": 2013,
@@ -660,7 +698,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(85,68,58)"
   },
   {
     "year": 2013,
@@ -677,7 +716,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(177,165,161)"
   },
   {
     "year": 2013,
@@ -694,7 +734,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(190,180,175)"
   },
   {
     "year": 2013,
@@ -711,7 +752,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(210,209,208)"
   },
   {
     "year": 2013,
@@ -728,7 +770,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": ",\"rgb(209,209,209)"
   },
   {
     "year": 2013,
@@ -745,7 +788,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(235,235,236)"
   },
   {
     "year": 2013,
@@ -762,7 +806,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(102,99,98)"
   },
   {
     "year": 2013,
@@ -779,7 +824,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(162,159,170)"
   },
   {
     "year": 2013,
@@ -796,7 +842,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(249,249,249)"
   },
   {
     "year": 2014,
@@ -813,7 +860,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(206,200,197)"
   },
   {
     "year": 2014,
@@ -830,7 +878,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(225,223,222)"
   },
   {
     "year": 2014,
@@ -847,7 +896,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(159,140,105)"
   },
   {
     "year": 2014,
@@ -864,7 +914,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(251,251,251)"
   },
   {
     "year": 2014,
@@ -881,7 +932,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(146,136,138)"
   },
   {
     "year": 2014,
@@ -898,7 +950,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(221,218,218)"
   },
   {
     "year": 2014,
@@ -915,7 +968,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(56,55,58)"
   },
   {
     "year": 2014,
@@ -932,7 +986,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(231,228,229)"
   },
   {
     "year": 2014,
@@ -949,7 +1004,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(108,105,102)"
   },
   {
     "year": 2014,
@@ -966,7 +1022,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(222,227,233)"
   },
   {
     "year": 2014,
@@ -983,7 +1040,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(206,201,197)"
   },
   {
     "year": 2014,
@@ -1000,7 +1058,8 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(186,183,196)"
   },
   {
     "year": 2014,
@@ -1017,6 +1076,7 @@
     "centered": "",
     "swiss": "",
     "newspapperlayout": "",
-    "colorful": ""
+    "colorful": "",
+    "rgb_value": "rgb(101,102,104)"
   }
 ]
