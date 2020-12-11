@@ -326,14 +326,11 @@ div.sticky {
         margin: 1rem;
     }
     img:hover {
-        width:   170%;
+        width:   180%;
       
       }
-      section img:hover {
-        width:   170%;
+      .wrapper-grid img:hover {
+        width:   180%;
       
       }
-      .section img:hover {
-        width:   170%;
-      
-      }
+    
