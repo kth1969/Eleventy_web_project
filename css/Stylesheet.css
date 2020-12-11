@@ -259,6 +259,11 @@ div.sticky {
         font-size: .9rem;
         text-decoration: none;
     }
+    .a-about{
+
+        font-size: 1rem;
+     
+    }
     .theme-dot{
         height: 30px;
         width: 130px;
