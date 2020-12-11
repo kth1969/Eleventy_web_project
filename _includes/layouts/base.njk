@@ -23,7 +23,7 @@
     $('.busy').toggleClass('hide');
 });
       $(document).on("click", ".toggleVisibilitycolors", function() {
-    $('.average').toggleClass('hide');
+    $('.rgb-col').toggleClass('hide');
 });
  
  function first() {
@@ -63,41 +63,31 @@
   </head>
  
 <body>
-    {# <header>
-     <h1 class="home">{{collection_1.name }}</h1>
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-     {# <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>  
-   </header>  #} 
+    <header>
 
    <div class="sticky">
         
-        <div id="theme-options-wrapper">
-      
-          <button onclick="first()"class="theme-dot"><a href="#first">1995-2000</a></button>
-           <button onclick="second()"class="theme-dot"><a href="#second">2001-2009</a></button>
-           <button onclick="third()" class="theme-dot"><a href="#third">2010-2014</a></button>
-           <button onclick="forth()" class="theme-dot"><a href="#forth">2015-2020</a></button>
-          <button class="toggleVisibilitybusy theme-dot" id="theme-dot">busy (1995)</button>
-           <button class="toggleVisibilitybold theme-dot" id="theme-dot">bold col. (2001)</button>
-           <button class="toggleVisibilitycolors theme-dot" id="theme-dot">main col. (2014)</button>
-            
-          </div>
-     
+    <div id="theme-options-wrapper">
+  
+      <button onclick="first()"class="theme-dot"><a href="#first">1995-2000</a></button>
+       <button onclick="second()"class="theme-dot"><a href="#second">2001-2009</a></button>
+       <button onclick="third()" class="theme-dot"><a href="#third">2010-2014</a></button>
+       <button onclick="forth()" class="theme-dot"><a href="#forth">2015-2020</a></button>
+      <button class="toggleVisibilitybusy theme-dot" id="theme-dot">busy (1995)</button>
+       <button class="toggleVisibilitybold theme-dot" id="theme-dot">bold col. (2001)</button>
+       <button class="toggleVisibilitycolors theme-dot" id="theme-dot">main col. (2015)</button>
         
       </div>
+ 
     
+  </div>
+</header> 
             <p class="ptext">
             1995-2020
             </p>
        
         
 
- </div>
 
      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}> 
 
