@@ -27,33 +27,19 @@
 });
  
  
-  function third() {
-    var x = document.getElementById("third");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-    function forth() {
-    var x = document.getElementById("forth");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-//   $(document).scroll(function() {
-//   var z = $(this).scrollTop();
-//   if (z < 3400) {
-//     $("#cof").fadeIn();
-//   } else {
-//     $("#cof").fadeOut();
-//   }
-// });
+  
+  //   function forth() {
+  //   var x = document.getElementById("forth");
+  //   if (x.style.display === "none") {
+  //     x.style.display = "block";
+  //   } else {
+  //     x.style.display = "none";
+  //   }
+  // }
+
 $(document).scroll(function() {
   var z = $(this).scrollTop();
-  if (z < 3400) {
+  if (z < 3300) {
     $("#cof").fadeIn();
   }else {
     $("#cof").fadeOut();
@@ -61,14 +47,60 @@ $(document).scroll(function() {
 });
 
 
-// $(document).scroll(function() {
-//   var y = $(this).scrollTop();
-//   if (y > 2000 && y < 3000) {
-//     $("#tee").fadeIn();
-//   } else {
-//     $("#tee").fadeOut();
-//   }
-// });
+// enlarge Pictures
+$(function() {
+
+var $el;
+
+$(".wrapper-grid img a").live("click", function() {    
+ 
+    $el = $(this);
+
+    $("<img />", {
+    
+        "src": $el.attr("href"),
+        "class": "larger"
+    
+    }).load(function() {
+              
+        $(this)
+            .appendTo("body")
+            .width($el.find("img").width())
+            .position({
+                "of": $el.find("img"),
+          "my": "center center",
+          "at": "center center"
+       })
+            .animate({
+                width: 200,
+                }, {
+                    "duration": 1000,
+                    "easing": "easeOutQuad",
+                    "step": function(i) {
+                        $(this).position({
+                            "of": $el.find("img"),
+                      "my": "center center",
+                      "at": "center center",
+                      "collision": "fit"
+                   })
+                    }
+                
+                }
+            )
+    });
+    
+    return false;
+    
+});
+
+$(".larger").live("click", function() {
+  $el = $(this);
+$el.fadeOut(400, function() {
+  $el.remove();
+})
+});
+
+});
 
 //   $(document).scroll(function() {
 //   var y = $(this).scrollTop();
@@ -118,14 +150,6 @@ $(document).scroll(function() {
 //   }
 // }
 
-// $(document).scroll(function() {
-//   var z = $(this).scrollTop();
-//   if (z > 4500 && z < 10000) {
-//     $('.textshow-second').fadeIn();
-//   } else {
-//     $('.textshow-second').fadeOut();
-//   }
-// });
 
 
  </script>

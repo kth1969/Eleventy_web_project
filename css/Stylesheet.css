@@ -3,9 +3,6 @@
 
 :root{
     --light-color:#F7F3F2;
-    --primary-color:#b90415;
-    --primary-color-hover:#d3071b;
-    --secondary-color:#103063;
     --secondary-color-hover:#143f85;
     --grey: rgb(70, 68, 73);  
     --dark: #252529;
@@ -29,6 +26,7 @@ body, html{
     line-height: 1.8em;
     color: var(--grey);
     background-color: var(--light-color);
+    scroll-behavior: smooth;
 
 }
 h2 {
@@ -45,33 +43,29 @@ h2 {
 }
 
 .text-rotate{
-    /* margin-left: 15px; */
+    
     transform-origin: left;
     transform: rotate(90deg);
     text-align:center;
     padding-top:2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     /* padding: 2rem 1.2rem 1.2rem 2rem; */
-    
     color: var(--light);
    background: linear-gradient(40deg, rgba(18, 6, 246, 0.822) 100%, rgba(9, 9, 121, 0.822) 0%);
    z-index: 100;
-  
-   position:fixed;
-   margin-left: 3.2%;
+    position:fixed;
+   margin-left: 3.5%;
    margin-top: -15%;
-   scroll-behavior: smooth;
+  
 }
 .text-rotate-1{
-    /* margin-left: 15px; */
     transform-origin: left;
     transform: rotate(90deg);
     text-align:center;
     
     padding: 2rem 1.2rem 2rem 1.2rem;
-    
     color: var(--light);
    background: linear-gradient(40deg, rgba(18, 6, 246, 0.822) 100%, rgba(9, 9, 121, 0.822) 0%);
    z-index: 100;
@@ -90,17 +84,8 @@ h2 {
     letter-spacing: 8px;
     text-shadow:0 2px 5px rgba(105, 100, 100, 0.63);
     color: var(--grey);
-   
-    /* -webkit-text-fill-color: transparent;
-    background-image:linear-gradient( rgb(19,6,246), rgb(9, 187, 241));
-  -webkit-background-clip: text;
-  background-clip: text; */
-
-   
      
 }
-
-
 
 
 /* Grid Layout Css Properties*/
@@ -116,7 +101,7 @@ h2 {
     grid-template-rows:repeat(8,1fr);
     grid-gap:12px;
     grid-auto-flow: row-dense;
-    scroll-behavior: smooth;
+   
 }
 .wrapper-grid-2{
     /* min-height: 100vh; */
@@ -273,6 +258,7 @@ div.sticky {
   
     z-index: 1000;
     overflow: auto;
+    
   }
  
 #theme-options-wrapper{
@@ -316,26 +302,9 @@ div.sticky {
        }
 
     
-  
-       #settings-note{
-        font-size: 1rem;
-        text-align: center;
-    }
-    #first{
-        transition: all 2s ease-in-out;
-    }
-
-   
-    label{
-        text-align: center;
-    }
-    #mySlider{
-       
-        width: 200px;
-    }
 
     /* About page */
-
+    
     .wrapper-about{
         display: flex;
         flex-direction: column;

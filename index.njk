@@ -58,9 +58,10 @@ eleventyNavigation:
 {% for screenshot in collection_3 %}
 
 <div class="image-span-wrapper">
-   <img src="/img/{{screenshot.name}}">
+  <a href="">
+   <img class="larger"src="/img/{{screenshot.name}}">
    <span class="rgb-col" style="background-color:{{screenshot.rgb_value}}"></span>   
-
+</a>
 </div>
 
  {% endfor %} 
