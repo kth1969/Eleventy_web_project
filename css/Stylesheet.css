@@ -211,7 +211,7 @@ div.sticky {
     position: -webkit-sticky;
     position: fixed;
     top: 1%;
-    left: 17vw;
+    left: 10vw;
   
     z-index: 1000;
     overflow: auto;
@@ -238,7 +238,7 @@ div.sticky {
     }
     .theme-dot{
         height: 30px;
-        width: 130px;
+        width: 160px;
         border-radius: 5%;
         box-shadow: var(--shadow);
         border:2px solid var(--themeDotBorder);
@@ -279,6 +279,7 @@ div.sticky {
     .linkstext{
         
         margin: 1rem;
+        margin-bottom: 2rem;
     }
     .image-span-wrapper:hover {
        
