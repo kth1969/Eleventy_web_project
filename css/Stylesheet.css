@@ -7,8 +7,7 @@
     --grey: rgb(70, 68, 73);  
     --dark: #252529;
     --light:#fff;
-    --red: #f84829;
-    --shadow: 0 1px 5px rgba(165, 161, 161, 0.63);
+     --shadow: 0 1px 5px rgba(165, 161, 161, 0.63);
     --shadowtext: 0 2px 5px rgba(22, 53, 224, 0.8);
 
 }
@@ -56,7 +55,7 @@ h2 {
    background: linear-gradient(40deg, rgba(18, 6, 246, 0.822) 100%, rgba(9, 9, 121, 0.822) 0%);
    z-index: 100;
     position:fixed;
-   margin-left: 6%;
+   margin-left: 3.8%;
    margin-top: -20%;
   
 }
