@@ -326,7 +326,7 @@
     "year": 2003,
     "url": "url(./Img/2003_Amazon.png)",
     "name": "2003_Amazon.png",
-    "bold_colors": false,
+    "bold_colors": true,
     "main_color": "white",
     "typo": true,
     "busy": true,
