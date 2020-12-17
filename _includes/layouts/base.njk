@@ -10,9 +10,9 @@
      <link rel="stylesheet" href="{{ '/css/Stylesheet.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ title }}">
-      <script src= 
-"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
-    </script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
    
 
  <script>
@@ -26,22 +26,7 @@
     $('.rgb-col').toggleClass('hide');
 });
  
- function first() {
-    var x = document.getElementById("first");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-    function second() {
-    var x = document.getElementById("second");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+ 
   function third() {
     var x = document.getElementById("third");
     if (x.style.display === "none") {
@@ -58,7 +43,89 @@
       x.style.display = "none";
     }
   }
- 
+//   $(document).scroll(function() {
+//   var z = $(this).scrollTop();
+//   if (z < 3400) {
+//     $("#cof").fadeIn();
+//   } else {
+//     $("#cof").fadeOut();
+//   }
+// });
+$(document).scroll(function() {
+  var z = $(this).scrollTop();
+  if (z < 3400) {
+    $("#cof").fadeIn();
+  }else {
+    $("#cof").fadeOut();
+  }
+});
+
+
+// $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y > 2000 && y < 3000) {
+//     $("#tee").fadeIn();
+//   } else {
+//     $("#tee").fadeOut();
+//   }
+// });
+
+//   $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y < 3000 && y > 0) {
+//     $('.textshow-hide-1').fadeIn();
+   
+//   } else {
+//     $(".textshow-hide-1").html("2001")
+//   }
+// });
+
+// $(document).ready(function () {
+
+// $(window).scroll(function () {
+//     if ($(this).scrollTop() > 2000) {
+//        $('.textshow-hide-1').text("2001")
+//     } else {
+//         $('.textshow-hide-1').text("1995")
+//     }
+// });
+// });
+// window.onscroll = function() {scrollFunction();
+// function scrollFunction() {
+  
+//   if(document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+//     document.getElementById("zahl").innerHTML = "2001";
+   
+//   } else if (document.body.scrollTop < 2000 && document.body.scrollTop > 1400 || document.documentElement.scrollTop < 2000 && document.documentElement.scrollTop > 1400){
+//     document.getElementById("zahl").innerHTML = "2009";
+  
+  
+//  }
+//  else {
+//   document.getElementById("zahl").innerHTML = "1995";
+// }
+
+// }
+
+
+// window.onscroll = function() {scrollFunction()};
+// function scrollFunction() {
+//   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+//     document.getElementById("zahl").innerHTML = "1995!";
+   
+//   } else {
+//     document.getElementById("zahl").innerHTML = "2001!";
+//   }
+// }
+
+// $(document).scroll(function() {
+//   var z = $(this).scrollTop();
+//   if (z > 4500 && z < 10000) {
+//     $('.textshow-second').fadeIn();
+//   } else {
+//     $('.textshow-second').fadeOut();
+//   }
+// });
 
 
  </script>
@@ -71,7 +138,7 @@
         
     <div id="theme-options-wrapper">
   
-      <button onclick="first()"class="theme-dot"><a href="#first">1995-2000</a></button>
+      <button class="theme-dot"><a href="#first">1995-2000</a></button>
        <button onclick="second()"class="theme-dot"><a href="#second">2001-2009</a></button>
        <button onclick="third()" class="theme-dot"><a href="#third">2010-2014</a></button>
        <button onclick="forth()" class="theme-dot"><a href="#forth">2015-2020</a></button>
