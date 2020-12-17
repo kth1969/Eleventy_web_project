@@ -19,9 +19,9 @@ eleventyNavigation:
   {% set busyClass = "busy" %}
  
 {% endif %}
-
+<div class="image-span-wrapper">
    <img class="{{busyClass}}"src="/img/{{screenshot.name}}"> 
-
+</div>
  {% endfor %} 
 
 </section>
@@ -29,10 +29,10 @@ eleventyNavigation:
 
 <div id="second">
 
-
+   
 <section class="wrapper-grid-2">
 
-     <h2 id="tee"class="text-rotate-1">2001</h2>
+     <h2 id="tee"class="text-rotate-1">2001</h2> 
 
 {% for screenshot in collection_2 %}
 
@@ -41,10 +41,10 @@ eleventyNavigation:
   {% set boldClass = "bold" %}
  
 {% endif %}
-
+<div class="image-wrapper-2">
    <img class="{{boldClass}}"src="/img/{{screenshot.name}} "> 
  
-
+</div>
  {% endfor %} 
  
 </section>
@@ -58,10 +58,10 @@ eleventyNavigation:
 {% for screenshot in collection_3 %}
 
 <div class="image-span-wrapper">
-  <a href="">
-   <img class="larger"src="/img/{{screenshot.name}}">
+
+   <img src="/img/{{screenshot.name}}">
    <span class="rgb-col" style="background-color:{{screenshot.rgb_value}}"></span>   
-</a>
+
 </div>
 
  {% endfor %} 

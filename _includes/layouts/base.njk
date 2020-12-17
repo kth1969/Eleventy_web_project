@@ -39,7 +39,7 @@
 
 $(document).scroll(function() {
   var z = $(this).scrollTop();
-  if (z < 3300) {
+  if (z> 300 && z < 4600) {
     $("#cof").fadeIn();
   }else {
     $("#cof").fadeOut();
@@ -48,59 +48,7 @@ $(document).scroll(function() {
 
 
 // enlarge Pictures
-$(function() {
 
-var $el;
-
-$(".wrapper-grid img a").live("click", function() {    
- 
-    $el = $(this);
-
-    $("<img />", {
-    
-        "src": $el.attr("href"),
-        "class": "larger"
-    
-    }).load(function() {
-              
-        $(this)
-            .appendTo("body")
-            .width($el.find("img").width())
-            .position({
-                "of": $el.find("img"),
-          "my": "center center",
-          "at": "center center"
-       })
-            .animate({
-                width: 200,
-                }, {
-                    "duration": 1000,
-                    "easing": "easeOutQuad",
-                    "step": function(i) {
-                        $(this).position({
-                            "of": $el.find("img"),
-                      "my": "center center",
-                      "at": "center center",
-                      "collision": "fit"
-                   })
-                    }
-                
-                }
-            )
-    });
-    
-    return false;
-    
-});
-
-$(".larger").live("click", function() {
-  $el = $(this);
-$el.fadeOut(400, function() {
-  $el.remove();
-})
-});
-
-});
 
 //   $(document).scroll(function() {
 //   var y = $(this).scrollTop();
