@@ -6,7 +6,9 @@ eleventyNavigation:
 ---
   
 <div id="first">
-<h2 id="time" class="text-rotate">1995</h2>
+<div class="sticky-timeline">
+<h2 id="time" class="text-rotate-2">1995</h2>
+ </div>
 <section class="wrapper-grid">
 
 
@@ -29,8 +31,11 @@ eleventyNavigation:
 </div>
 
 <div id="second">
-  <h2 id="tee"class="text-rotate-2">2001</h2> 
-   
+<div class="changetime"><p class="changetimetext">2001</p></div>
+<div class="sticky-timeline">
+  <h2 id="timetwo"class="text-rotate-2">2001</h2> 
+   </div>
+
 <section class="wrapper-grid-2">
 
   
@@ -52,8 +57,12 @@ eleventyNavigation:
 
 </div>
 <div id="third">
+<div class="changetime"><p class="changetimetext">2010</p></div>
+<div id="timethree"class="sticky-timeline">
+ <h2 class="text-rotate-2">2010</h2>
+</div>
 <section class="wrapper-grid">
- <h2 class="text-rotate-1">2010</h2>
+
 
     
 {% for screenshot in collection_3 %}
@@ -73,9 +82,13 @@ eleventyNavigation:
 </div>
 
 <div id="forth">
+<div class="changetime"><p class="changetimetext">2015</p></div>
+<div class="sticky-timeline">
+
+ <h2 id="timefore"class="text-rotate-2">2015</h2>
+</div>
+
 <section class="wrapper-grid">
- <h2 class="text-rotate-1">2015</h2>
- 
 
     
 {% for screenshot in collection_4_col %}

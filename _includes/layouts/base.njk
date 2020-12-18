@@ -30,16 +30,56 @@
 
 $(document).scroll(function() {
   var z = $(this).scrollTop();
-  if (z> 400 && z < 4900) {
+  if (z> 400 && z < 5000) {
     $("#time").fadeIn();
   }else {
     $("#time").fadeOut();
   }
 });
 
+$(document).scroll(function() {
+  var v = $(this).scrollTop();
+  if (v>5100 && v < 10000) {
+    $("#timetwo").fadeIn();
+  }else {
+    $("#timetwo").fadeOut();
+  }
+});
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y>10200 && y < 13800) {
+    $("#timethree").fadeIn();
+  }else {
+    $("#timethree").fadeOut();
+  }
+});
+$(document).scroll(function() {
+  var x = $(this).scrollTop();
+  if (x>13900 && x < 20000) {
+    $("#timefore").fadeIn();
+  }else {
+    $("#timefore").fadeOut();
+  }
+});
 
 
-
+function hidetimeline() {
+  var x = document.getElementById("time");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function hidetimelinetwo() {
+  var x = document.getElementById("timetwo");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
  </script>
   </head>
@@ -55,8 +95,8 @@ $(document).scroll(function() {
        <button class="theme-dot"><a href="#second">2001-2009</a></button>
        <button class="theme-dot"><a href="#third">2010-2014</a></button>
        <button class="theme-dot"><a href="#forth">2015-2020</a></button>
-      <button class="toggleVisibilitybusy theme-dot" id="theme-dot">minimal (1995)</button>
-       <button class="toggleVisibilitybold theme-dot" id="theme-dot">bold col. (2001)</button>
+      <button onclick="hidetimeline()"class="toggleVisibilitybusy theme-dot" id="theme-dot">minimal (1995)</button>
+       <button  onclick="hidetimelinetwo()"class="toggleVisibilitybold theme-dot" id="theme-dot">bold col. (2001)</button>
        <button class="toggleVisibilitycolors theme-dot" id="theme-dot"> hide main col. (2010-20)</button>
         
       </div>
