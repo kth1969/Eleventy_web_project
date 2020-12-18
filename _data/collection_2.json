@@ -564,7 +564,7 @@
     "year": 2004,
     "url": "url(./Img/2004_nike.png)",
     "name": "2004_nike.png",
-    "bold_colors": true,
+    "bold_colors": false,
     "main_color": "grey",
     "typo": true,
     "busy": false,

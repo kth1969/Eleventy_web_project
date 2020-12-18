@@ -618,7 +618,7 @@
     "bold_colors": true,
     "main_color": "white",
     "typo": true,
-    "busy": false,
+    "busy": true,
     "picture": false,
     "pattern": false,
     "color_block": true,
