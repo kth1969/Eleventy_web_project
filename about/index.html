@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Project</title>
+    <meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+     <link rel="stylesheet" href="/css/Stylesheet.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="About the Project">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="About the Project">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+     
+
+   
+
+ <script>
+    $(document).on("click", ".toggleVisibilitybold", function() {
+    $('.bold').toggleClass('hide');
+});
+      $(document).on("click", ".toggleVisibilitybusy", function() {
+    $('.busy').toggleClass('hide');
+});
+      $(document).on("click", ".toggleVisibilitycolors", function() {
+    $('.rgb-col').toggleClass('hide');
+});
+ 
+
+
+$(document).scroll(function() {
+  var z = $(this).scrollTop();
+  if (z> 400 && z < 5000) {
+    $("#time").fadeIn();
+  }else {
+    $("#time").fadeOut();
+  }
+});
+
+$(document).scroll(function() {
+  var v = $(this).scrollTop();
+  if (v>5100 && v < 10000) {
+    $("#timetwo").fadeIn();
+  }else {
+    $("#timetwo").fadeOut();
+  }
+});
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y>10200 && y < 13800) {
+    $("#timethree").fadeIn();
+  }else {
+    $("#timethree").fadeOut();
+  }
+});
+$(document).scroll(function() {
+  var x = $(this).scrollTop();
+  if (x>13900 && x < 20000) {
+    $("#timefore").fadeIn();
+  }else {
+    $("#timefore").fadeOut();
+  }
+});
+
+
+// function hidetimeline() {
+//   var x = document.getElementById("time");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+// function hidetimelinetwo() {
+//   var x = document.getElementById("timetwo");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
+
+ </script>
+  </head>
+ 
+<body>
+    <header>
+
+   <div class="sticky">
+        
+    <div id="theme-options-wrapper">
+  
+      <button class="theme-dot"><a href="#first">1995-2000</a></button>
+       <button class="theme-dot"><a href="#second">2001-2009</a></button>
+       <button class="theme-dot"><a href="#third">2010-2014</a></button>
+       <button class="theme-dot"><a href="#forth">2015-2020</a></button>
+      <button onclick="hidetimeline()"class="toggleVisibilitybusy theme-dot" id="theme-dot">minimal (1995)</button>
+       <button  onclick="hidetimelinetwo()"class="toggleVisibilitybold theme-dot" id="theme-dot">bold col. (2001)</button>
+       <button class="toggleVisibilitycolors theme-dot" id="theme-dot"> hide main col. (2010-20)</button>
+        
+      </div>
+ 
+    
+  </div>
+</header> 
+            <p class="ptext">
+            1995-2020
+            </p>
+       
+        
+
+
+     <main> 
+
+ </main>
+      <!-- Stop deleting -->
+
+
+      <p>It is a 9 Days student Web-project in Digital Ideation HSLU Luzern.<br>
+The screen shots are from the Webpage Wayback Archiv and the selection was curated by me, Karin Fischer. There are popular webpages from different sections that I could think of. I tried to find early adopters to the internet to show also the changes of the pages in timeline and more than one example in a rubrik to compare them with each other. Mainly the selection contains international and swiss webpages from art museum, newspaper and magazins, artists, tv channels, public transport and Technology companies.</p>
+
+     
+   
+</section>
+</div>
+    <footer></footer>
+
+    <!-- Current page: /about/ -->
+  </body>
+</html>
